@@ -25,3 +25,7 @@ using a prerelease version of Node (i.e. v7.6.0-rc.1) you will need to either:
   2. Run `yarn` with a standard release of Node and then switch back
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+*Tips init 项目时候，可能会出现问题
+nuxt版本不兼容
+npm uninstall nuxt
+npm install nuxt@1.4.2
