@@ -12,7 +12,7 @@ const port = process.env.PORT || 3000
 const r = path => resolve(__dirname, path)
 const config = require('../nuxt.config.js')
 config.dev = !(process.env === 'production')
-const MIDDLEWARE = ['router', 'database']
+const MIDDLEWARE = ['database', 'router']
 
 class Server {
   constructor() {

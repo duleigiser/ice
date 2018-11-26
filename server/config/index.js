@@ -1,8 +1,8 @@
 export default {
   wechat: {
     token: 'wechat',
-    appID: 'wx568823a4a4a0a412',
-    appSecret: '492cd553bde135a985f1f46ab0682aba'
+    appID: 'wx331c89297791e3a3',
+    appSecret: '442cac9242cbbacd100ddb0e8cee19e3'
   },
   db: 'mongodb://172.16.164.44/ice'
 }
